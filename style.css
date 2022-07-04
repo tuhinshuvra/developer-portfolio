@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.section-hero {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+.hero-txt {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.hero-txt p {
+    /* line-height: 25px; */
+    letter-spacing: .5px;
+    word-spacing: .8px;
+    color: rgb(85, 83, 83);
+    margin-bottom: 50px;
+}
+
+.link-btn {
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 10px 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.hero-image {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.hero-image img {
+    width: 87%;
+    margin-top: 40px;
+}
