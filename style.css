@@ -17,6 +17,8 @@ h1 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-left: 0px;
+    margin-bottom: 150px;
+
 }
 
 .hero-txt {
@@ -37,6 +39,7 @@ h1 {
     /* background-color: orange; */
     background-image: linear-gradient(orange, tomato);
     font-weight: 700;
+    text-transform: capitalize;
     color: white;
     letter-spacing: 1.5px;
     padding: 10px 40px;
@@ -52,4 +55,15 @@ h1 {
 .hero-image img {
     width: 87%;
     margin-top: 40px;
+}
+
+
+.section-dream {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 0px;
+
+
 }
